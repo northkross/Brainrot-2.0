@@ -259,8 +259,7 @@ check_packages3() {
 _header "Brainrot 2.0" "false"
 
 check_text_exists "/home/rizzler/Forensics1.txt" "Skibidi, Skibidi Hawk Tuah Hawk" "Forensics 1 correct" "2"
-check_text_exists "/home/rizzler/Forensics2.txt" "https://tophermitchell.hair" "Forensics 2 correct" "2"
-check_text_exists "/home/rizzler/Forensics3.txt" "LowTaperFade" "Forensics 3 correct" "2"
+check_text_exists "/home/rizzler/Forensics2.txt" "LowTaperFade" "Forensics 2 correct" "2"
 check_text_not_exists "/etc/group" "chillguy:x:1003:" "User chillguy removed" "2"
 check_text_not_exists "/etc/group" "koco:x:1006:" "User koco removed" "2"
 check_text_exists "/etc/group" "Prison:x:1016:diddy" "Diddy added to Prison" "2"
